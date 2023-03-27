@@ -3,6 +3,7 @@ font-family: 'Abel', sans-serif;
 h1{
   font-family: Abel;
   font-size: 48px;
+  color: red;
 }
 table, th, td {
   border: 1px solid;
@@ -52,3 +53,14 @@ button:hover{
 .piece{
 	padding: 20px;
 }
+.p1{
+	font-size: 20px;
+	background-color: #dad7cd;
+	border-radius: 25px;
+} 
+.p2{
+	font-size: 20px;
+	background-color: #dad7cd;
+	border-radius: 25px;
+	color: red;
+} 

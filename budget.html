@@ -1,0 +1,29 @@
+<html> 
+<head>
+<title> budget checker </title>
+
+<button onClick="budget()"> are you staying out of debt? </button>
+<script>
+function budget (){
+var salary;
+salary = prompt("how much did you make last month?","");
+var food;
+food = prompt("how much did you spend on food last month?","");
+salary -= food;
+var clothes;
+clothes = prompt("how much did you spend on clothes last month?","");
+salary -= clothes;
+var misc;
+misc = prompt("how much did you spend on other things?","");
+salary -= misc;
+if (salary < 0){
+	alert("oops you overspent by " + salary + " this month ");
+}
+else if (salary > 0){
+	alert("you stayed in budget by " + salary + " good job!");
+	}
+
+}
+</script>
+</html> 
+</head>
