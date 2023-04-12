@@ -27,6 +27,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin: auto;	
+	font-size: 36px;
 } 
 img {
 	border-radius: 25px;
@@ -85,10 +86,10 @@ button:hover{
 	gap: 30px;
 }
 .p3{
-	font-size: 24px;
+	font-size: 32px;
 } 
 .p4{
-	font-size: 18px;
+	font-size: 24px;
 	text-align: left;
 	white-space: pre-wrap;
 } 
